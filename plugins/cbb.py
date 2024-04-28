@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "help":
         await query.message.edit_text(
-            text = f"<b>Bot Cammands\n❏ Commands For BOT Admins\n├/start : start the bot or get posts\n├/batch : Create Group Message\n├/genlink : create link for one post\n├/users : view bot statistics\n├/broadcast : broadcast Message\n└/stats : checking your bot uptime\n\n👨‍💻 Developed by <a href=https://t.me/Its_Oreki_Hotarou>Hōᴛᴀʀō Oʀᴇᴋɪ</a></b>",
+            text = f"<b>Bot Cammands\n❏ Commands For BOT Admins\n├/start : start the bot or get posts\n├/batch : Create Group Message\n├/genlink : create link for one post\n├/users : view bot statistics\n├/broadcast : broadcast Message\n└/stats : checking your bot uptime\n\n👨‍💻 Developed by <a href=https://t.me/Red_hair_shanks_69>🆂🅷🅰🅽🅺🆂</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
@@ -23,7 +23,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         )
     elif data == "about":
         await query.message.edit_text(
-            text = f"<b>Hi there this is a file store bot which is convert any file to link...\nthen you can access this file through a specific link...!\n\nCreator - @Its_Oreki_Hotarou\nMy Channel - @Anime_X_Hunters\nDicsussion Group - @Hunters_Discussion</a>\n\n👨‍💻 Developed by @Its_Oreki_Hotarou</b>",
+            text = f"<b>Hi there this is a file store bot which is convert any file to link...\nthen you can access this file through a specific link...!\n\nCreator - @Red_hair_shanks_69\nMy Channel - @Anime_Shinigami\nDicsussion Group - @weekend_warriors_69</a>\n\n👨‍💻 Developed by @Red_hair_shanks_69</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
